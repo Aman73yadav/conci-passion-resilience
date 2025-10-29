@@ -1,0 +1,7 @@
+project_id = "ytxjgstfuyrmjpnuuthe"
+
+[functions.conci-chat]
+verify_jwt = false
+
+[functions.generate-hotel-scene]
+verify_jwt = false
