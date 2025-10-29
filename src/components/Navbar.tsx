@@ -25,11 +25,11 @@ const Navbar = () => {
             <a href="#about" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
               About
             </a>
-            <Button variant="ghost" size="sm">
-              Sign In
+            <Button variant="ghost" size="sm" asChild>
+              <a href="#about">Sign In</a>
             </Button>
-            <Button variant="hero" size="sm">
-              Get Started
+            <Button variant="hero" size="sm" asChild>
+              <a href="#about">Get Started</a>
             </Button>
           </div>
           
